@@ -1,16 +1,35 @@
 # todo
 
-A new Flutter project.
+todo is a simple mobile application built with Flutter to help users manage their tasks efficiently.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add tasks to your to-do list.
+- Delete tasks from your to-do list.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To run this application:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository to your local machine.
+
+```
+git clone https://github.com/debghs/todo.git
+```
+
+2. Navigate to the project directory.
+```
+cd todo
+```
+
+3. Run the app on your preferred emulator or physical device.
+```
+flutter run
+```
+
+## Usage
+
+- Launch the app on your android device(haven'tested on ios, yet).
+- Tap on the floating action button (orange circular button with a "+" icon) to add a new task.
+- Enter the task details in the dialog box and tap "Add" to add the task to your to-do list.
+- Tap on the delete button on a task bar, to delete that task.
