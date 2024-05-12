@@ -98,7 +98,7 @@ body: ListView.builder(
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 5),
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 52, 51, 51), // Grey background color
+        color: const Color.fromARGB(255, 20, 20, 20), // Grey background color
         borderRadius: BorderRadius.circular(15), // Rounded corners
       ),
       child: ListTile(
@@ -143,17 +143,17 @@ body: ListView.builder(
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: const Text('Add ToDo'),
+          title: const Text('add todo'),
           content: TextField(
             controller: todoController,
-            decoration: const InputDecoration(hintText: 'Enter ToDo'),
+            decoration: const InputDecoration(hintText: 'enter todo'),
           ),
           actions: [
             TextButton(
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: const Text('Cancel'),
+              child: const Text('cancel'),
             ),
             TextButton(
               onPressed: () {
@@ -167,7 +167,7 @@ body: ListView.builder(
                   Navigator.pop(context);
                 }
               },
-              child: const Text('Add'),
+              child: const Text('add'),
             ),
           ],
         );
